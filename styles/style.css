@@ -159,7 +159,7 @@ button {
 .lots {
     display: grid;
     grid-template: auto auto auto / 1fr;
-    max-width: 1340px;
+    max-width: 1052px;
     margin: auto;
     font-size: 20px;
 }
@@ -363,11 +363,18 @@ footer {
   line-height: normal;
 }
 
+.footer_links {
+  font-size: 18px;
+  line-height: normal;
+  color: #000;
+} 
+
 .footer_main {
   text-decoration: none;
 }
 
 .images_footer {
+  display: flex;
   width: 48px;
   height: 48px;
 }
