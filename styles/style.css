@@ -158,10 +158,6 @@ h1 {
   text-transform: uppercase;
 }
 
-.container_first {
-  max-width: 1100px;
-  padding: 0 24px;
-}
 .cards {
   display: flex;
   justify-content: center;
@@ -169,7 +165,7 @@ h1 {
 }
 
 .card {
-  width: 334px;
+  width: 100%;
   padding: 48px 48px;
   position: relative;
   display: flex;
@@ -224,7 +220,7 @@ h2 {
 .about_auction {
   margin-top: 148px;
 }
-.container_second {
+.auction {
   display: grid;
   grid-template-columns: 334px repeat(1, 1fr);
   gap: 25px;
