@@ -51,6 +51,11 @@ header {
   list-style-type: none;
   font-style: normal;
 }
+
+.contact {
+  text-underline-offset: 3px;
+}
+
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
@@ -302,6 +307,7 @@ footer {
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
+  text-underline-offset: none;
 }
 
 .footer_social-icon {
