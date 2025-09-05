@@ -3,10 +3,7 @@ header {
   box-sizing: content-box;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding-top: 92px;
-  padding-left: 24px;
-  padding-bottom: 92px;
-  padding-right: 24px;
+  padding: 92px 24px;
 }
 
 .header_menu {
@@ -24,11 +21,13 @@ header {
 .head {
   font-size: 18px;
   font-weight: 400;
+  list-style-type: none;
 }
 
 .see_lots {
   font-size: 18px;
   font-weight: 400;
+  list-style-type: circle;
   text-underline-offset: 4px;
 }
 
@@ -70,8 +69,6 @@ header {
   bottom: 0;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  height: 100%;
   z-index: -1;
 }
 
@@ -79,22 +76,11 @@ header {
   display: flex;
   flex-direction: column;
   padding: 165px 50px 147px;
-  width: 1100px;
-  height: 757px;
   gap: 20px;
   font-size: 100%;
   text-align: center;
 }
-.words {
-  display: flex;
-  flex-direction: column;
-  padding: 50px 50px 147px;
-  width: 1000px;
-  height: 385px;
-  gap: 20px;
-  font-size: 100%;
-  text-align: center;
-}
+
 .it {
   align-self: flex-start;
   line-height: 1.15;
@@ -103,7 +89,6 @@ header {
   word-spacing: 5px;
   width: 286px;
   letter-spacing: 0.3em;
-  /* width: 286px; */
   height: 115px;
   font-size: 100px;
   font-weight: 700;
@@ -136,7 +121,7 @@ header {
   gap: 79px;
 }
 
-p {
+.lots_heading {
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
@@ -157,14 +142,13 @@ button {
 }
 
 .lots {
-    display: grid;
-    grid-template: auto auto auto / 1fr;
-    max-width: 1052px;
-    margin: auto;
-    font-size: 20px;
+  display: grid;
+  grid-template: auto auto auto / 1fr;
+  margin: auto;
+  font-size: 20px;
 }
 
-h2 {
+h1 {
   padding-top: 179px;
   padding-bottom: 26px;
   padding-left: 40px;
@@ -172,29 +156,22 @@ h2 {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  
 }
 
-.container_1 {
-width: 1052px;
-height: 723px;
-
-  
+.container_first {
+  width: 1100px;
+  padding: 0 24px;
 }
 .cards {
-width: 1100px;
-height: 723px;
-display: flex;
-justify-content: center;
-gap: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
 
-.card_about_cinema {
+.card {
   width: 334px;
-
-  padding: 51px 40px 48px;
+  padding: 48px 48px;
   position: relative;
-  height: 100%;
   display: flex;
   flex-direction: column;
   z-index: 1;
@@ -203,48 +180,22 @@ gap: 25px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  gap: 30px;
+  gap: 25px;
+}
+
+.card_about_cinema {
   background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_about_book {
- width: 334px;
-
-  padding: 51px 40px 48px;
-  position: relative;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  z-index: 1;
-  justify-content: space-between;
-  align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  gap: 30px;
-  background-image: url(./../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_about_picture {
-  width: 334px;
-
-  padding: 51px 40px 48px;
-  position: relative;
-  height: 100%;
-  display: flex;
-  
-  flex-direction: column;
-  z-index: 1;
-  justify-content: space-between;
-  align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  gap: 30px;
-  background-image: url(./../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
-h3 {
+h2 {
   color: white;
   font-size: 22px;
   font-weight: 700;
@@ -256,13 +207,7 @@ h3 {
 .card_text {
   color: white;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-line-height: 1.2;
-position: relative;
-z-index: 1;
-
+  line-height: 1.2;
 }
 
 .see_more {
@@ -279,7 +224,7 @@ z-index: 1;
 .about_auction {
   margin-top: 148px;
 }
-.container_2 {
+.container_second {
   display: grid;
   grid-template-columns: 334px repeat(1, 1fr);
   gap: 25px;
@@ -363,17 +308,12 @@ footer {
   line-height: normal;
 }
 
-.footer_main {
+.footer_social-icon {
+  display: flex;
+  flex-direction: row;
   text-decoration: none;
 }
 
 .images_footer {
-  display: flex;
   width: 48px;
-  height: 48px;
-}
-
-.footer_images {
-  display: flex;
-  gap: 48px;
 }
