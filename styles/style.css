@@ -159,7 +159,7 @@ h1 {
 }
 
 .container_first {
-  width: 1100px;
+  max-width: 1100px;
   padding: 0 24px;
 }
 .cards {
