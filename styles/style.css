@@ -15,7 +15,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
 
-  width: 1100px;
+  max-width: 1100px;
   height: 180px;
 
   padding: 92px 50px 96px;
@@ -183,8 +183,10 @@
 
 .headline_lots {
   padding-top: 179px;
+  
   padding-bottom: 27px;
-  padding-left: 64px;
+  /* padding-left: 64px; */
+  padding-left: 44px;
   color: #000;
   font-size: 40px;
   font-weight: 700;
@@ -193,14 +195,15 @@
 
 .cards {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  align-items: center;
   max-width: 1052px;
   width: 100%;
-  gap: 35px;
+  gap: 25px;
 }
 
 .card {
-  width: 334px;
+min-width: 334px;
   height: 596px;
   padding: 40px 40px;
   position: relative;
