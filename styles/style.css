@@ -3,12 +3,11 @@ header {
   box-sizing: content-box;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 24px;
+  padding: 92px 50px 96px;
 }
 
 .header_menu {
   display: flex;
-  justify-self: center;
 }
 
 .menu {
@@ -121,9 +120,9 @@ header {
 .description {
   display: flex;
   align-items: baseline;
-  justify-content: space-evenly;
-  padding: 0px 50px 55px 78px;
-  gap: 79px;
+  justify-content: space-between;
+  padding: 0px 50px 50px 50px;
+  gap: 30px;
 }
 
 .lots_heading {
@@ -155,8 +154,8 @@ button {
 
 h1 {
   padding-top: 179px;
-  padding-bottom: 26px;
-  padding-left: 40px;
+  padding-bottom: 27px;
+  padding-left: 64px;
   color: #000;
   font-size: 40px;
   font-weight: 700;
@@ -166,12 +165,12 @@ h1 {
 .cards {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 30px;
 }
 
 .card {
   width: 100%;
-  padding: 48px 48px;
+  padding: 48px 40px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -255,7 +254,7 @@ h2 {
   padding-top: 100px;
 }
 
-h4 {
+h3 {
   color: black;
   font-size: 40px;
   font-weight: 700;
