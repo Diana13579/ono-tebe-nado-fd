@@ -334,7 +334,7 @@ width: 334px;
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 125px 50px 55px;
+  padding: 125px 50px 75px;
   gap: 120px;
   align-items: flex-start;
 }
