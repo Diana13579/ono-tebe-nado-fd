@@ -1,4 +1,4 @@
-.box {
+/* .box {
   box-sizing: border-box;
   background: #ffffff;
   max-width: 1100px;
@@ -7,7 +7,7 @@
   height: 100%;
   position: relative;
   overflow: hidden;
-}
+} */
 
 .header {
   display: grid;
@@ -262,7 +262,7 @@ min-width: 334px;
   margin-top: 120px;
 
   margin-left: 29px;
-  
+
 }
 .auction {
   display: grid;
