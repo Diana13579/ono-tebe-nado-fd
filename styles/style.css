@@ -331,11 +331,11 @@ width: 334px;
   letter-spacing: 0;
 }
 
-footer {
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 180px 50px 88px;
-  gap: 140px;
+  padding: 180px 50px 58px;
+  gap: 120px;
   align-items: flex-start;
 }
 
