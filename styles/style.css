@@ -290,7 +290,7 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  margin-top: 76px;
+  margin-top: 77px;
 }
 
 /* .text_1 {
@@ -306,7 +306,7 @@
 } */
 
 .text_content {
-  /* padding-top: 76px; */ */
+  /* padding-top: 76px; */
   margin-top: 24px;
   margin-bottom: 24px;
   font-size: 20px;
@@ -317,7 +317,8 @@
   width: 1100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 125px 50px 75px;
+  /* padding: 125px 50px 75px; */
+  margin-top: 180px;
   gap: 120px;
   align-items: flex-start;
 }
