@@ -162,7 +162,7 @@
 .lots {
   display: grid;
   grid-template: auto auto auto / 1fr;
-  margin: 24px;
+  margin-left: 24px;
   /* margin-left: 29px; */
   font-size: 20px;
 }
@@ -306,6 +306,9 @@
 }
 
 .footer {
+  max-width: 1100px;
+width: 100%;
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 125px 50px 75px;
@@ -340,6 +343,9 @@
   display: flex;
   flex-direction: row;
   text-decoration: none;
+
+  left: 810px;
+
   gap: 48px;
 }
 
