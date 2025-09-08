@@ -96,13 +96,10 @@
 .it {
   align-self: flex-start;
   line-height: 1.15;
-  /* transform: translateY(2px); */
-  /* padding-top: 2px; */
   text-align: center;
   word-spacing: 5px;
   width: 286px;
   letter-spacing: 0.3em;
-  /* height: 115px; */
   font-size: 100px;
   font-weight: 700;
   text-transform: uppercase;
@@ -115,7 +112,6 @@
   font-size: 100px;
   letter-spacing: 0.3em;
   width: 339px;
-  /* left: 663px; */
   top: 435px;
 }
 
@@ -126,8 +122,8 @@
   font-weight: 700;
   letter-spacing: 0.3em;
   width: 387px;
-  /* height: 115px; */
 }
+
 .description {
   display: flex;
   align-items: baseline;
