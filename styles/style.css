@@ -110,6 +110,7 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
 .you {
   align-self: center;
   text-align: center;
@@ -117,7 +118,7 @@
   font-size: 100px;
   letter-spacing: 0.3em;
   width: 339px;
-  left: 663px;
+  /* left: 663px; */
   top: 435px;
 }
 
