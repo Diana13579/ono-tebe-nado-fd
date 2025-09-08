@@ -190,30 +190,19 @@
 }
 
 .card {
-  width: 334px;
-  height: 100%;
-  padding: 40px 40px;
-  position: relative;
-  display: block;
- 
-/* height: max-content; */
-
-  /* display: flex;
-  flex-direction: column; */
-/* flex-basis:content; */
-
-  /* align-items: flex-end; */
-  /* align-content: flex-end; */
-
-  z-index: 1;
-  justify-content: space-between;
-
-  /* align-items: center; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  
-  gap: 35px;
+ width: 334px; 
+  height: 100%; 
+  padding: 40px 40px; 
+  position: relative; 
+  display: flex; 
+  flex-direction: column; 
+  z-index: 1; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  gap: 35px; 
 }
 
 .card_about_cinema {
