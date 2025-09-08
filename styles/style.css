@@ -129,7 +129,7 @@
   font-weight: 700;
   letter-spacing: 0.3em;
   width: 387px;
-  height: 115px;
+  /* height: 115px; */
 }
 .description {
   display: flex;
@@ -182,6 +182,7 @@
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   max-width: 1052px;
   width: 100%;
@@ -190,17 +191,28 @@
 
 .card {
   width: 334px;
-  height: 596px;
+  height: 100%;
   padding: 40px 40px;
   position: relative;
-  display: flex;
-  flex-direction: column;
+  display: block;
+ 
+/* height: max-content; */
+
+  /* display: flex;
+  flex-direction: column; */
+/* flex-basis:content; */
+
+  /* align-items: flex-end; */
+  /* align-content: flex-end; */
+
   z-index: 1;
   justify-content: space-between;
-  align-items: center;
+
+  /* align-items: center; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  
   gap: 35px;
 }
 
