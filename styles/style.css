@@ -365,6 +365,7 @@ max-width: 264.7px;
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-left: 50px;
 };
 
 .footer_menu-link {
@@ -386,7 +387,7 @@ max-width: 264.7px;
   display: flex;
   flex-direction: row;
   text-decoration: none;
-  left: 810px;
+  margin-left: 50px;
   gap: 48px;
 }
 
