@@ -91,36 +91,29 @@
   gap: 20px;
   font-size: 100%;
   text-align: center;
+
+font-size: 100px;
+  letter-spacing: 0.3em;
+  font-weight: 700;
 }
 
 .it {
   align-self: flex-start;
-  line-height: 1.15;
   text-align: center;
-  word-spacing: 5px;
+  /* word-spacing: 5px; */
   width: 286px;
-  letter-spacing: 0.3em;
-  font-size: 100px;
-  font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .you {
   align-self: center;
   text-align: center;
-  font-weight: 700;
-  font-size: 100px;
-  letter-spacing: 0.3em;
   width: 339px;
-  top: 435px;
 }
 
 .need {
   align-self: flex-end;
   text-align: right;
-  font-size: 100px;
-  font-weight: 700;
-  letter-spacing: 0.3em;
   width: 387px;
 }
 
