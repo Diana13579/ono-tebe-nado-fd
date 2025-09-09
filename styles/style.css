@@ -89,31 +89,23 @@
   flex-direction: column;
   padding: 165px 50px 106px;
   gap: 20px;
-  font-size: 100%;
-  text-align: center;
-
-font-size: 100px;
+  font-size: 100px;
   letter-spacing: 0.3em;
   font-weight: 700;
 }
 
 .it {
   align-self: flex-start;
-  text-align: center;
-  /* word-spacing: 5px; */
   width: 286px;
-  /* text-transform: uppercase; */
 }
 
 .you {
   align-self: center;
-  text-align: center;
   width: 339px;
 }
 
 .need {
   align-self: flex-end;
-  text-align: right;
   width: 387px;
 }
 
@@ -151,9 +143,8 @@ font-size: 100px;
 
 .lots {
   display: grid;
-  grid-template: auto auto auto / 1fr;
+  grid-template-columns: repeat(auto-fill, 334px, 596px);
   margin-left: 24px;
-  font-size: 20px;
 }
 
 .headline_lots {
@@ -167,22 +158,16 @@ font-size: 100px;
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  max-width: 1052px;
-  width: 100%;
-  height: 100%;
-  gap: 25px;
+display: grid;
+grid-auto-flow: column;
+gap: 25px;
 }
 
 .card {
-  width: 334px;
-  height: 100%;
-  padding: 47.7px 40px;
-  position: relative;
   display: flex;
   flex-direction: column;
+  position: relative;
+  padding: 47.7px 40px;
   z-index: 1;
   justify-content: space-between;
   align-items: center;
@@ -203,6 +188,7 @@ font-size: 100px;
 .card_about_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
+
 
 .headline_card {
   color: white;
