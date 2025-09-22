@@ -184,10 +184,6 @@
   gap: 35px;
 }
 
-.card-link {
-  display: block;
-  height: 100%;
-}
 .card_about_cinema {
   background-image: url(../images/card-lot-01.jpg);
 }
