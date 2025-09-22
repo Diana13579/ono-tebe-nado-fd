@@ -141,42 +141,54 @@
   text-align: center;
 }
 
-.lots {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 334px, 596px);
-  margin-left: 24px;
-}
+.lots { 
+  display: grid; 
+  grid-template: auto auto auto / 1fr;  
+  margin-left: 24px; 
+  font-size: 20px; 
+} 
 
-.headline_lots {
-  padding-top: 179px;
-  padding-bottom: 27px;
-  padding-left: 44px;
-  color: #000;
-  font-size: 40px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
+.headline_lots { 
+  padding-top: 179px; 
+  padding-bottom: 27px; 
+  padding-left: 44px; 
+  color: #000; 
+  font-size: 40px; 
+  font-weight: 700; 
+  text-transform: uppercase; 
+} 
 
-.cards {
-display: grid;
-grid-auto-flow: column;
-gap: 25px;
-}
+.cards { 
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center; 
+  max-width: 1052px; 
+  width: 100%; 
+  height: 100%;
+  align-items: stretch;
+ justify-content: baseline;
+  gap: 25px; 
+} 
 
-.card {
-  display: flex;
+.card { 
+  width: 334px;
+  padding: 48px 40px;
+  position: relative; 
+  display: flex; 
   flex-direction: column;
-  position: relative;
-  padding: 47.7px 40px;
-  z-index: 1;
-  justify-content: space-between;
-  align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  z-index: 1; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
   gap: 35px;
-}
+} 
 
+.card-link {
+  display: block;
+  height: 100%;
+}
 .card_about_cinema {
   background-image: url(../images/card-lot-01.jpg);
 }
