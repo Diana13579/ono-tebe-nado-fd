@@ -161,7 +161,6 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   max-width: 1052px;
   width: 100%;
   height: 100%;
